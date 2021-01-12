@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman Holiday</title>
+    <link rel="stylesheet" href="StyleSheet.css" />
+    <script src="jquery-1.12.4.min.js"></script>
+    <script src="movie.js"></script>
+</head>
+
+<body>
+    <hgroup id="title">
+        <h1 data-name="information">Information</h1>
+        <h1 data-name="charater">character</h1>
+        <h1 data-name="multimadia">Multimedia</h1>
+    </hgroup>
+    <section id="container">
+        <div id="main" data-name="main" class="active">
+            <img src="Images/Middle_Foreground.png">
+        </div>
+        <div id="information" data-name="information">
+            <img src="Images/Information_Image.png">
+            <div class="desciption"> 
+                <p>《로마의 휴일》(-休日, Roman Holiday)은 윌리엄 와일러 감독, 오드리 헵번, 그레고리 펙 주연의 로맨틱 코미디 영화이다. 1953년에 흑백 영화로 제작되었다.</p>
+                <p>윌리엄 와일러 감독의 대표작 중 가장 많은 젊은 관객에게 호평을 받은 작품이다. 유머와 비애를 교착시켜가면서 내뱉는 말솜씨와, 서로의 희미한 애정을 감추면서 작별하는 마지막 기자회견의 장면 연출이 뛰어나다. 오드리 헵번은 이 작품의 출연으로 최고의 인기 여배우가 되었다.</p>
+            </div>
+        </div>
+        <div id="character" data-name="character">
+            <a href="#">Left button</a>
+            <a href="#">Right button</a>
+            <article class="show">
+                <h1>Princess Ann</h1>
+                    <img src="Images/Character_Text_1.png">
+                    <img src="Images/Character_1.png">
+                <p>오드리 헵번(영어: Audrey Hepburn, 1929년 5월 4일 ~ 1993년 1월 20일)은 영국의 배우이자 자선가였다. 본명은 오드리 캐슬린 러스턴(영어: Audrey Kathleen Ruston)이며, 할리우드의 황금시대에서 영화와 패션의 아이콘으로 활동했다. 미국 영화 연구소로부터 여성 배우 중 스크린 전설 3위로 선정되었고, 베스트 드레서 부문 명예의 전당 여성 배우로 선정되었다.</p>
+            </article>
+            <article>
+                <h1>Joe Bradley</h1>
+                    <img src="Images/Character_Text_2.png">
+                    <img src="Images/Character_2.png">
+                <p>그레고리 펙은 할리우드의 고전 미남 배우 중 한 명으로 대표작으로는 《모비 딕(Moby Dick)》, 《로마의 휴일(Roman Holiday)》, 《앵무새 죽이기(To Kill a Mockingbird)》,《나바론의 요새(The Guns of Navarone》), 《오멘(The Omen)》 등을 들 수 있다.</p>
+            </article>
+            <article>
+                <h1>Radovich</h1>
+                    <img src="Images/Character_Text_3.png">
+                    <img src="Images/Character_3.png">
+                <p>오드리 헵번(영어: Audrey Hepburn, 1929년 5월 4일 ~ 1993년 1월 20일)은 영국의 배우이자 자선가였다. 본명은 오드리 캐슬린 러스턴(영어: Audrey Kathleen Ruston)이며, 할리우드의 황금시대에서 영화와 패션의 아이콘으로 활동했다. 미국 영화 연구소로부터 여성 배우 중 스크린 전설 3위로 선정되었고, 베스트 드레서 부문 명예의 전당 여성 배우로 선정되었다.</p>
+            </article>
+        </div>
+        <div id="multimedia" data-name="multimedia">
+            <iframe width="940" height="480" src="https://www.youtube.com/embed/U_FjmOn55pE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+    <nav id="main_navigation">
+        <ul>
+            <!-- 같은 data-name이 있는 기능을 활성화 -->
+            <li><a href="#" data-target="information">Movie Info</a></li>
+            <li><a href="#" data-target="character">Charater</a></li>
+            <li><a href="#" data-target="multimadia">Multimedia</a></li>
+            <li><a href="#">Download</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
